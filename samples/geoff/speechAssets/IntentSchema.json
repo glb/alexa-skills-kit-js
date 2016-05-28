@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "HomeIntent"
+    },
+    {
+      "intent": "CanadaIsGreatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+ }
