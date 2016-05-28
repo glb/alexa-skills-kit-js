@@ -19,7 +19,13 @@
  */
 
 /**
- * App ID for the skill
+ * App ID for your skill. You don't need this to get started,
+ * but if you want to ensure that the function only serves
+ * requests from your skill, then come back and fill in the
+ * app ID here after you've created your skill. You'll find
+ * the app ID on the Information tab of your skill after you've
+ * created it. Remember to re-upload the code for this function
+ * to Lambda after you've updated the value!
  */
 var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 
@@ -121,4 +127,3 @@ exports.handler = function (event, context) {
     var spaceGeek = new SpaceGeek();
     spaceGeek.execute(event, context);
 };
-
