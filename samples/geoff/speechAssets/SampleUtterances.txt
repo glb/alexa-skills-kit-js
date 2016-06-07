@@ -1,6 +1,17 @@
 HomeIntent where he lives
-CanadaIsGreatIntent why Canada is amazing
-CanadaIsGreatIntent why Canada is so amazing
-CanadaIsGreatIntent why Canada is awesome
+
+CanadaIsAmazingIntent why Canada is amazing
+CanadaIsAmazingIntent why Canada is so amazing
+CanadaIsAmazingIntent what's so amazing about Canada
+CanadaIsAmazingIntent what's amazing about Canada
+
+CanadaIsAwesomeIntent why Canada is awesome
+CanadaIsAwesomeIntent why Canada is so awesome
+CanadaIsAwesomeIntent what's so awesome about Canada
+CanadaIsAwesomeIntent what's awesome about Canada
+
 CanadaIsGreatIntent why Canada is great
 CanadaIsGreatIntent why Canada is so great
+CanadaIsGreatIntent what's so great about Canada
+CanadaIsGreatIntent what's great about Canada
+

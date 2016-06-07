@@ -89,7 +89,15 @@ Geoff.prototype.intentHandlers = {
     },
 
     "CanadaIsGreatIntent": function (intent, session, response) {
-        handleCanadaRequest(response);
+        handleCanadaRequest(response, "great");
+    },
+
+    "CanadaIsAwesomeIntent": function (intent, session, response) {
+        handleCanadaRequest(response, "awesome");
+    },
+
+    "CanadaIsAmazingIntent": function (intent, session, response) {
+        handleCanadaRequest(response, "amazing");
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
@@ -110,13 +118,13 @@ Geoff.prototype.intentHandlers = {
 /**
  * Gets a random new fact from the list and returns to the user.
  */
-function handleCanadaRequest(response) {
+function handleCanadaRequest(response, adjective) {
     // Get a random reason why Canada is awesome from the list
     var factIndex = Math.floor(Math.random() * CANADA_AWESOMENESS.length);
     var fact = CANADA_AWESOMENESS[factIndex];
 
     // Create speech output
-    var speechOutput = "Canada is really awesome because " + fact;
+    var speechOutput = "Canada is really " + adjective + " because " + fact;
 
     response.tellWithCard(speechOutput, "Geoff", speechOutput);
 }

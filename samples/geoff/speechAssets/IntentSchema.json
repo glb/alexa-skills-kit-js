@@ -1,19 +1,13 @@
 {
   "intents": [
-    {
-      "intent": "HomeIntent"
-    },
-    {
-      "intent": "CanadaIsGreatIntent"
-    },
-    {
-      "intent": "AMAZON.HelpIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
-    }
+    { "intent": "HomeIntent" },
+
+    { "intent": "CanadaIsGreatIntent" },
+    { "intent": "CanadaIsAmazingIntent" },
+    { "intent": "CanadaIsAwesomeIntent" },
+
+    { "intent": "AMAZON.HelpIntent" },
+    { "intent": "AMAZON.StopIntent" },
+    { "intent": "AMAZON.CancelIntent" }
   ]
  }
